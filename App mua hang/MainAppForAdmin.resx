@@ -120,10 +120,10 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="viewMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACaSURBVHhe7dixCQQhFEVRi55atqBlitkuZhE+GIyC8ELPgZv88GXaAAAAAIDzXJ/70X4129CP
-        39+jjQwYZsAwA4YZMMyAYcsBtV/NBgAAAOeaPZi1rmYb+nH2daN3BgwzYJgBwwwYZsCw5YDar2YDAACA
-        c80ezFpXsw39OPu60TsDhhkwzIBhBgwzYNhyQO1XswEAAAAAx2jtDwoQaYUH4cdEAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGPC/xhBQAAAJpJREFUeF7t
+        2LEJBCEURVGLnlq2oGWK2S5mET4YjILwQs+Bm/zwZdoAAAAAgPNcn/vRfjXb0I/f36ONDBhmwDADhhkw
+        zIBhywG1X80GAAAA55o9mLWuZhv6cfZ1o3cGDDNgmAHDDBhmwLDlgNqvZgMAAIBzzR7MWlezDf04+7rR
+        OwOGGTDMgGEGDDNg2HJA7VezAQAAAADHaO0PChBphQfhx0QAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="chatWC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

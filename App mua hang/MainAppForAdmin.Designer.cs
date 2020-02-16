@@ -32,13 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainAppForAdmin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.viewMenu = new System.Windows.Forms.Button();
             this.chatWC = new System.Windows.Forms.PictureBox();
             this.cusRecharge = new System.Windows.Forms.PictureBox();
             this.addAccount = new System.Windows.Forms.PictureBox();
             this.addMore = new System.Windows.Forms.PictureBox();
             this.panelSlide = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.viewMenu = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chatWC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cusRecharge)).BeginInit();
@@ -64,6 +64,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(75, 597);
             this.panel2.TabIndex = 1;
+            // 
+            // viewMenu
+            // 
+            this.viewMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewMenu.Image = ((System.Drawing.Image)(resources.GetObject("viewMenu.Image")));
+            this.viewMenu.Location = new System.Drawing.Point(4, 0);
+            this.viewMenu.Name = "viewMenu";
+            this.viewMenu.Size = new System.Drawing.Size(71, 60);
+            this.viewMenu.TabIndex = 3;
+            this.viewMenu.UseVisualStyleBackColor = true;
+            this.viewMenu.Click += new System.EventHandler(this.viewMenu_Click);
             // 
             // chatWC
             // 
@@ -107,24 +118,16 @@
             // 
             // panelSlide
             // 
+            this.panelSlide.BackColor = System.Drawing.Color.DimGray;
             this.panelSlide.Location = new System.Drawing.Point(71, 57);
             this.panelSlide.Name = "panelSlide";
-            this.panelSlide.Size = new System.Drawing.Size(177, 597);
+            this.panelSlide.Size = new System.Drawing.Size(379, 597);
             this.panelSlide.TabIndex = 2;
             // 
             // timer1
             // 
+            this.timer1.Interval = 30;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // viewMenu
-            // 
-            this.viewMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewMenu.Image = ((System.Drawing.Image)(resources.GetObject("viewMenu.Image")));
-            this.viewMenu.Location = new System.Drawing.Point(4, 0);
-            this.viewMenu.Name = "viewMenu";
-            this.viewMenu.Size = new System.Drawing.Size(71, 60);
-            this.viewMenu.TabIndex = 3;
-            this.viewMenu.UseVisualStyleBackColor = true;
             // 
             // MainAppForAdmin
             // 
@@ -155,7 +158,7 @@
         private System.Windows.Forms.PictureBox cusRecharge;
         private System.Windows.Forms.PictureBox addAccount;
         private System.Windows.Forms.PictureBox addMore;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button viewMenu;
+        private System.Windows.Forms.Timer timer1;
     }
 }

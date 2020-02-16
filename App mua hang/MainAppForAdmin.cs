@@ -44,5 +44,10 @@ namespace App_mua_hang
                 }
             }
         }
+
+        private void viewMenu_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
     }
 }
