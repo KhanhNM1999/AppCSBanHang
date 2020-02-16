@@ -88,7 +88,7 @@
             this.buttonDB.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDB.Image = ((System.Drawing.Image)(resources.GetObject("buttonDB.Image")));
             this.buttonDB.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonDB.Location = new System.Drawing.Point(-1, -1);
+            this.buttonDB.Location = new System.Drawing.Point(4, -1);
             this.buttonDB.Name = "buttonDB";
             this.buttonDB.Size = new System.Drawing.Size(250, 90);
             this.buttonDB.TabIndex = 0;
@@ -100,18 +100,22 @@
             // 
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(0, 89);
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.Location = new System.Drawing.Point(2, 105);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(250, 90);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Add Staff";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(0, 267);
+            this.button3.Location = new System.Drawing.Point(2, 319);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(250, 90);
             this.button3.TabIndex = 3;
@@ -122,11 +126,14 @@
             // 
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(0, 178);
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.Location = new System.Drawing.Point(-1, 214);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(250, 90);
             this.button4.TabIndex = 2;
-            this.button4.Text = "button4";
+            this.button4.Text = "Messager";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
             // 
             // MainAppForAdmin
