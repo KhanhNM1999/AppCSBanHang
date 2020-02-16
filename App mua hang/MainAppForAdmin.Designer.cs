@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainAppForAdmin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -38,7 +37,6 @@
             this.addMore = new System.Windows.Forms.PictureBox();
             this.viewMenu = new System.Windows.Forms.PictureBox();
             this.panelSlide = new System.Windows.Forms.Panel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chatWC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cusRecharge)).BeginInit();
@@ -115,7 +113,6 @@
             this.viewMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.viewMenu.TabIndex = 3;
             this.viewMenu.TabStop = false;
-            this.viewMenu.Click += new System.EventHandler(this.viewMenu_Click);
             // 
             // panelSlide
             // 
@@ -123,10 +120,6 @@
             this.panelSlide.Name = "panelSlide";
             this.panelSlide.Size = new System.Drawing.Size(177, 597);
             this.panelSlide.TabIndex = 2;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // MainAppForAdmin
             // 
@@ -139,7 +132,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "MainAppForAdmin";
             this.Text = "MainAppForAdmin";
-            this.Load += new System.EventHandler(this.MainAppForAdmin_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chatWC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cusRecharge)).EndInit();
@@ -160,6 +152,5 @@
         private System.Windows.Forms.PictureBox addAccount;
         private System.Windows.Forms.PictureBox addMore;
         private System.Windows.Forms.PictureBox viewMenu;
-        private System.Windows.Forms.Timer timer1;
     }
 }

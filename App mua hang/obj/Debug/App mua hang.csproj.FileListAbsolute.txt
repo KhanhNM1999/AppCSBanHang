@@ -10,3 +10,15 @@ D:\Project Tu Lam\App mua hang\App mua hang\bin\Debug\Bunifu_UI_v1.52.dll
 D:\Project Tu Lam\App mua hang\App mua hang\obj\Debug\App mua hang.csproj.CopyComplete
 D:\Project Tu Lam\App mua hang\App mua hang\obj\Debug\App_mua_hang.adminLogin.resources
 D:\Project Tu Lam\App mua hang\App mua hang\obj\Debug\App_mua_hang.MainAppForAdmin.resources
+D:\Project Tu Lam\AppCSBanHang\App mua hang\bin\Debug\App mua hang.exe.config
+D:\Project Tu Lam\AppCSBanHang\App mua hang\bin\Debug\App mua hang.exe
+D:\Project Tu Lam\AppCSBanHang\App mua hang\bin\Debug\App mua hang.pdb
+D:\Project Tu Lam\AppCSBanHang\App mua hang\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App mua hang.csprojAssemblyReference.cache
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App_mua_hang.adminLogin.resources
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App_mua_hang.MainAppForAdmin.resources
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App_mua_hang.Properties.Resources.resources
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App mua hang.csproj.GenerateResource.cache
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App mua hang.csproj.CopyComplete
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App mua hang.exe
+D:\Project Tu Lam\AppCSBanHang\App mua hang\obj\Debug\App mua hang.pdb

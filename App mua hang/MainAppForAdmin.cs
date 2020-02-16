@@ -12,17 +12,17 @@ namespace App_mua_hang
 {
     public partial class MainAppForAdmin : Form
     {
-        int panelWidth;
-        bool Hidden;
+        //int panelWidth;
+        //bool Hidden;
 
         public MainAppForAdmin()
         {
             InitializeComponent();
-            panelWidth = viewMenu.Width;
-            Hidden = false;
+            //panelWidth = viewMenu.Width;
+            //Hidden = false;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        /*private void timer1_Tick(object sender, EventArgs e)
         {
             if(Hidden)
             {
@@ -46,14 +46,9 @@ namespace App_mua_hang
             }
         }
 
-        private void viewMenu_Click(object sender, EventArgs e)
+        //private void viewMenu_Click(object sender, EventArgs e)
         {
             timer1.Start();
-        }
-
-        private void MainAppForAdmin_Load(object sender, EventArgs e)
-        {
-            abcbcbcbcbb;
-        }
+        }*/
     }
 }
