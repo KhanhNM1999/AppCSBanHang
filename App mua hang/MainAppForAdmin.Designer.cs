@@ -139,6 +139,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "MainAppForAdmin";
             this.Text = "MainAppForAdmin";
+            this.Load += new System.EventHandler(this.MainAppForAdmin_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chatWC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cusRecharge)).EndInit();

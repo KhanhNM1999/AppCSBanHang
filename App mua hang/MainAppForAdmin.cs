@@ -50,5 +50,10 @@ namespace App_mua_hang
         {
             timer1.Start();
         }
+
+        private void MainAppForAdmin_Load(object sender, EventArgs e)
+        {
+            abcbcbcbcbb;
+        }
     }
 }
