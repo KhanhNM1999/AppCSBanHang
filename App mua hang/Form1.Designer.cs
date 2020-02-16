@@ -116,6 +116,7 @@
             this.loginButton.Size = new System.Drawing.Size(181, 41);
             this.loginButton.TabIndex = 3;
             this.loginButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click_1);
             // 
             // bunifuThinButton22
             // 

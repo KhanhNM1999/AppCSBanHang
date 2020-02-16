@@ -26,15 +26,6 @@ namespace App_mua_hang
             }
         }
 
-        private void loginButton_Click(object sender, EventArgs e)
-        {
-            // Xử lý sự kiện khi ấn login
-            MainAppForAdmin mAFD = new MainAppForAdmin();
-            this.Hide();
-            mAFD.ShowDialog();
-            this.Show();
-
-        }
         public void Contact()
         {
             System.Diagnostics.Process.Start("https://www.facebook.com/kalisdepasooo");
@@ -45,9 +36,13 @@ namespace App_mua_hang
             Contact();
         }
 
-        private void contactClick(object sender, LinkLabelLinkClickedEventArgs e)
+        private void loginButton_Click_1(object sender, EventArgs e)
         {
-
+            // Xử lý sự kiện khi ấn login
+            MainAppForAdmin mAFD = new MainAppForAdmin();
+            this.Hide();
+            mAFD.ShowDialog();
+            this.Show();
         }
     }
 }
